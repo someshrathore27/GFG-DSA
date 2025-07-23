@@ -6,7 +6,7 @@ class Solution {
         while(n)
         {
             sum=sum+to_string(n%2);
-            n=n/2;
+            n=n>>1;
         }
         int s=0;
         int e=sum.size()-1;
